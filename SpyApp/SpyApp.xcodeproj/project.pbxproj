@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81FB3849215450670050413F /* ROT13CipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB3848215450670050413F /* ROT13CipherTests.swift */; };
+		81FB384B21546E860050413F /* Lucky7CipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB384A21546E860050413F /* Lucky7CipherTests.swift */; };
 		970E4DD52138EC8600BA3EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DD42138EC8600BA3EE9 /* AppDelegate.swift */; };
 		970E4DD72138EC8600BA3EE9 /* SpyAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DD62138EC8600BA3EE9 /* SpyAppViewController.swift */; };
 		970E4DDA2138EC8600BA3EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970E4DD82138EC8600BA3EE9 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81FB3848215450670050413F /* ROT13CipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13CipherTests.swift; sourceTree = "<group>"; };
+		81FB384A21546E860050413F /* Lucky7CipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky7CipherTests.swift; sourceTree = "<group>"; };
 		970E4DD12138EC8600BA3EE9 /* SpyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		970E4DD42138EC8600BA3EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		970E4DD62138EC8600BA3EE9 /* SpyAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyAppViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				970E4DE92138EC8700BA3EE9 /* SpyAppTests.swift */,
 				978590D0214B5C350052D920 /* CeaserCipherTests.swift */,
 				970E4DEB2138EC8700BA3EE9 /* Info.plist */,
+				81FB3848215450670050413F /* ROT13CipherTests.swift */,
+				81FB384A21546E860050413F /* Lucky7CipherTests.swift */,
 			);
 			path = SpyAppTests;
 			sourceTree = "<group>";
@@ -219,6 +225,8 @@
 			files = (
 				970E4DEA2138EC8700BA3EE9 /* SpyAppTests.swift in Sources */,
 				978590D1214B5C350052D920 /* CeaserCipherTests.swift in Sources */,
+				81FB3849215450670050413F /* ROT13CipherTests.swift in Sources */,
+				81FB384B21546E860050413F /* Lucky7CipherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
